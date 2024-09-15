@@ -20,6 +20,9 @@ Welcome to **MyGoShare**, a powerful and efficient file-sharing and management s
 ---
 
 ## 📑 API Endpoints
+You can try out the application hosted on the following public IP address:
+
+- **Public IPv4 Address**: [http://16.171.136.21:8080/]
 
 Here’s a list of all the available API endpoints for **MyGoShare**:
 
