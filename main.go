@@ -47,8 +47,6 @@ func main() {
     http.HandleFunc("/login", handlers.LoginHandler)
 	http.HandleFunc("/search/files", middleware.JWTAuthMiddleware(handlers.SearchFiles))
 
-	
-
     // these are protect routed with jwt middleware 
     http.HandleFunc("/upload", middleware.JWTAuthMiddleware(uploadHandler))
     http.HandleFunc("/files", middleware.JWTAuthMiddleware(handlers.GetFilesHandler))

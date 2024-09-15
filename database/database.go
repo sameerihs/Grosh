@@ -37,7 +37,7 @@ func InitDB() {
 
 func InitCache() {
     redisClient = redis.NewClient(&redis.Options{
-        Addr: "localhost:6379", // Adjust Redis address if necessary
+        Addr: "localhost:6379",
     })
     _, err := redisClient.Ping(ctx).Result()
     if err != nil {
